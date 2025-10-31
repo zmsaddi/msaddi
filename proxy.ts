@@ -9,8 +9,8 @@ const intlMiddleware = createMiddleware({
   localePrefix: 'always',
 });
 
-// Enhanced middleware with security and i18n
-export function middleware(request: NextRequest) {
+// Enhanced proxy with security and i18n
+export function proxy(request: NextRequest) {
   // First, apply internationalization
   const response = intlMiddleware(request);
 

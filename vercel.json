@@ -3,5 +3,8 @@
     "enabled": true,
     "autoAlias": true,
     "silent": true
-  }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
 }
